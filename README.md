@@ -10,10 +10,14 @@ Team id here : cs-108
 [link to video]
 ## How it Works ?
 1. Explaining the working of project
-2. Embed video of project demo
+the blog is working using react the framawork of javascript and node js and express js for the backend side and mysql for databae for storing the data entered into the local host
+we split the project into two folders one api and one for client.client we made 5 pages in the src of client.3 components that we are using throght the projects.
+in the api side we buit 3 user,post,auth
+ 
+4. Embed video of project demo
 ## Libraries used
 #client side 
- "@testing-library/jest-dom": "^5.16.4",
+ "@testing-library/jest-dom": "^5.16.4",/
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
