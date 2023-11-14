@@ -2,18 +2,43 @@
 # Food Blogging site
 This blog is built is for local blogging puropose on the topic of food this blog can 
 ## Team members
-1. Shadil Am :[Embed personal github URL]
-2. Adhitya Km : [Embed perosnal github URL]
+1. Shadil Am :[(https://github.com/shadil-rayyan)]
+2. Adhitya Km : [(https://github.com/Adhithyakm)]
 ## Team Id
 Team id here : cs-108
 ## Link to product walkthrough
 [link to video]
 ## How it Works ?
+##the code database is not woring due to an error
 1. Explaining the working of project
-the blog is working using react the framawork of javascript and node js and express js for the backend side and mysql for databae for storing the data entered into the local host
-we split the project into two folders one api and one for client.client we made 5 pages in the src of client.3 components that we are using throght the projects.
-in the api side we buit 3 user,post,auth
- 
+Backend (Node.js with Express):
+Server Setup:
+The Express app is initialized to handle server-side operations.
+Middleware is set up to easily parse incoming JSON data and handle cookies.
+File Uploads:
+File Upload Endpoint:
+An API endpoint (/api/upload) is established to deal specifically with file uploads.
+When a file is uploaded, the endpoint responds with the filename in a JSON format.
+Frontend (React.js):
+Components:
+The React app is organized into various components like Menu, Single, and Write, making it modular and maintainable.
+Routing:
+React Router, with features like useNavigate and Link from "react-router-dom," is employed for smooth client-side navigation between different pages.
+State Management:
+React's useState and useEffect hooks are utilized for managing component state.
+These hooks help in handling side effects, such as fetching data from the server.
+Axios:
+Axios, a powerful HTTP client library, is integrated into the app to facilitate making HTTP requests from the frontend to the backend API.
+Database (MongoDB):
+Mysql serves as the database to store user and post-related data.
+Specific database interactions, while not entirely visible in the provided snippets, are likely present in the application logic.
+Styling (CSS):
+CSS is emloyed to define the visual presentation of components, ensuring an aesthetically pleasing layout, color scheme, and responsiveness.
+Authentication (Authentication Routes):
+Authentication routes (authRoutes) are implemented to handle user registration, login, and potentially logout functionalities.
+Client-Server Communication:
+API endpoints (/api/auth, /api/users, /api/posts) act as bridges for communication between the frontend and backend.
+These endpoints manage CRUD operations (Create, Read, Update, Delete) for users and posts, ensuring seamless data interaction.
 4. Embed video of project demo
 ## Libraries used
 #client side 
