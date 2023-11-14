@@ -10,7 +10,8 @@ Team id here : cs-108
 [link to video]
 ## How it Works ?
 ##the code database is not woring due to an error
-1. Explaining the working of project
+1. Explaining the working of project:
+  the user can login in and publish post using write when opening there wont post any you need to write your own to display it on your home screen,you need to llogin to write/publish the post 
 Backend (Node.js with Express):
 Server Setup:
 The Express app is initialized to handle server-side operations.
